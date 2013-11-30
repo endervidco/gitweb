@@ -22,6 +22,11 @@ class SiteController extends Controller
 			),
 		);
 	}
+	
+	public function actionIndex(){
+		
+		echo 'Index function added';
+	}
 
 	/**
 	 * This is the action to handle external exceptions.
