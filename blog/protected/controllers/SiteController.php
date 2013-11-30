@@ -22,6 +22,11 @@ class SiteController extends Controller
 			),
 		);
 	}
+	
+	public function actionIndex(){
+		
+		echo 'Index function added';
+	}
 
 	/**
 	 * This is the action to handle external exceptions.
@@ -42,6 +47,9 @@ class SiteController extends Controller
 	 */
 	public function actionContact()
 	{
+	
+		$emreKocTest = 1;
+		
 		$model=new ContactForm;
 		if(isset($_POST['ContactForm']))
 		{
