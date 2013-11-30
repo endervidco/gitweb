@@ -42,6 +42,7 @@ class SiteController extends Controller
 	 */
 	public function actionContact()
 	{
+		$emreKocTest = 1;
 		$model=new ContactForm;
 		if(isset($_POST['ContactForm']))
 		{
